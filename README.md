@@ -17,3 +17,8 @@ npm install
 
 npm start
 ```
+
+# PDF.js source
+
+Modified source: https://github.com/trietphm/pdf.js
+https://github.com/trietphm/pdf.js/commit/d7c3371b1ba6a31d2d2121378d7442313be6548f
