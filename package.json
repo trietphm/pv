@@ -10,9 +10,25 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "electron": "^3.0.4"
+    "electron": "^3.0.4",
+    "electron-builder": "^20.28.4"
   },
   "dependencies": {
     "mousetrap": "^1.6.2"
+  },
+  "build": {
+    "appId": "triet.phm.pdfjs",
+    "productName": "pdfjs",
+    "mac": {
+      "category": "pdfjs.vim.fanboy"
+    },
+    "win": {
+    },
+    "linux": {
+    }
+  },
+  "scripts": {
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
   }
 }
