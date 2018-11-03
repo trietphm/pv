@@ -1,5 +1,5 @@
 {
-  "name": "pdfjs",
+  "name": "pv",
   "version": "1.0.0",
   "description": "",
   "main": "main.js",
@@ -20,10 +20,10 @@
     "mousetrap": "^1.6.2"
   },
   "build": {
-    "appId": "triet.phm.pdfjs",
-    "productName": "pdfjs",
+    "appId": "triet.phm.pv",
+    "productName": "pv",
     "mac": {
-      "category": "pdfjs.vim.fanboy"
+      "category": "pv.triet.phm"
     },
     "win": {},
     "linux": {}
