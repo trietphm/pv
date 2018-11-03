@@ -1,3 +1,5 @@
+![Logo](https://github.com/trietphm/pv/blob/master/build/150px.png)
+
 # pv - PDF-Vim
 Electron app for viewing PDF with simple vim binding.
 
