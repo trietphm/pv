@@ -1,4 +1,4 @@
-# pdfjs
+# pv - PDF-Vim
 Electron app for viewing PDF with simple vim binding.
 
 Using:
