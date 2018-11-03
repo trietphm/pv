@@ -815,6 +815,9 @@ html[dir='rtl'] .findbar {
 #findInput::-webkit-input-placeholder {
   color: hsl(0, 0%, 75%);
 }
+#findInput:-ms-input-placeholder {
+  font-style: italic;
+}
 #findInput::-ms-input-placeholder {
   font-style: italic;
 }

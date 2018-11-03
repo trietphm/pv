@@ -39,7 +39,7 @@ See https://github.com/adobe-type-tools/cmap-resources
 
     <script src="viewer.js"></script>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/mousetrap/1.6.2/mousetrap.min.js"></script>
+    <script src="../node_modules/mousetrap/mousetrap.min.js"></script>
   </head>
 
   <body tabindex="1" class="loadingInProgress">
@@ -392,11 +392,12 @@ See https://github.com/adobe-type-tools/cmap-resources
     <div id="printContainer"></div>
   </body>
   <script>
+    const e = document.getElementById('viewerContainer');
     Mousetrap.bind('j', function() {
-      document.getElementById('viewerContainer').scrollTop += 50;
+      e.scrollTop += 50;
     });
     Mousetrap.bind('k', function() {
-      document.getElementById('viewerContainer').scrollTop -= 50;
+      e.scrollTop -= 50;
     });
   </script>
 </html>

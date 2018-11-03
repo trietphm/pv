@@ -30,3 +30,7 @@ app.on('ready', function() {
     mainWindow = null;
   });
 });
+
+app.on('window-all-closed', () => {
+  app.quit();
+});
