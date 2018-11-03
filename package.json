@@ -16,6 +16,7 @@
     "electron-builder": "^20.28.4"
   },
   "dependencies": {
+    "electron-context-menu": "^0.10.1",
     "mousetrap": "^1.6.2"
   },
   "build": {
@@ -24,9 +25,7 @@
     "mac": {
       "category": "pdfjs.vim.fanboy"
     },
-    "win": {
-    },
-    "linux": {
-    }
+    "win": {},
+    "linux": {}
   }
 }

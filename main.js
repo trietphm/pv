@@ -7,6 +7,8 @@ const BrowserWindow = electron.BrowserWindow;
 
 var mainWindow = null;
 
+require('electron-context-menu')();
+
 //const pdfURL = "http://mozilla.github.io/pdf.js/web/compressed.tracemonkey-pldi-09.pdf";
 
 app.on('ready', function() {
