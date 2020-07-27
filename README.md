@@ -13,12 +13,15 @@ Update keyboard shortcuts:
 - Implement new keybind `j`/`k` to move `down`/`up`
 
 # Install
-
+From source
 ```
 npm install
 
 npm start
 ```
+
+or check release section for dmg files
+https://github.com/trietphm/pv/releases
 
 # PDF.js source
 
